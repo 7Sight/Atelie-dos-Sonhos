@@ -1,0 +1,62 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica Neue;
+	color:#2c2727;
+}
+
+/* <--! Menu Superior --> */
+nav {	
+	position: fixed;
+	top: 0;
+	width: 100%;	
+}
+
+
+/* <--! Rodapé --> */
+
+footer {
+	background-color: #888;
+	text-align: center;
+	padding: 0.5em 0;
+	font-size: 1.5em;
+}
+/* <--! Orcamento --> */
+.facaseuorcamento{
+    margin: 10px auto;
+    min-height: 100vh;
+	padding: 1px;
+}
+/* <--! Titulo do Form --> */
+.titfaca{
+     text-align: center;
+    margin-bottom: 125px;
+    margin-top: 20px;
+}
+.contact{
+    margin: 0 0 0 0;
+}
+.esp{
+    margin-bottom: 10px;
+}
+.hrr{
+    margin: 0 0 0 10px;
+}
+.par{
+         text-align: center;
+   @include text-shadow(1px 1px 0 rgba(white, 1));
+}
+/* Titulo Quem Somos*/
+.form-quem{
+	text-align: center;
+}
+.container-img{
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
