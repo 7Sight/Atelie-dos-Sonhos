@@ -27,7 +27,7 @@ footer {
 /* <--! Orcamento --> */
 .facaseuorcamento{
     margin: 10px auto;
-    min-height: 100vh;
+	min-height: 65vh;
 	padding: 1px;
 }
 /* <--! Titulo do Form --> */
@@ -49,13 +49,19 @@ footer {
          text-align: center;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
+.format{
+	margin-bottom: 150px;
+}
 /* Titulo Quem Somos*/
 .form-quem{
 	text-align: center;
+	margin-bottom: 100px;
 }
 .container-img{
-	display: inline-block;
-	width: 95%;
-	height: 90%;
+	width: 500px;
+	height: 500px;
 }
-
+.container-somos{
+	margin-bottom: 125px;
+}
+/* Nosso Trabalho*/
