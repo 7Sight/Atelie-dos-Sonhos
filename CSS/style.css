@@ -16,7 +16,10 @@ nav {
 	width: 100%;	
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Dev
 /* <--! Rodapé --> */
 
 footer {
@@ -28,7 +31,11 @@ footer {
 /* <--! Orcamento --> */
 .facaseuorcamento{
     margin: 10px auto;
+<<<<<<< HEAD
     min-height: 100vh;
+=======
+	min-height: 65vh;
+>>>>>>> Dev
 	padding: 1px;
 }
 /* <--! Titulo do Form --> */
@@ -50,6 +57,7 @@ footer {
          text-align: center;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
+<<<<<<< HEAD
 /* Titulo Quem Somos*/
 .form-quem{
 	text-align: center;
@@ -60,3 +68,54 @@ footer {
 	height: auto;
 }
 
+=======
+.format{
+	margin-bottom: 150px;
+}
+/* Titulo Quem Somos*/
+.form-quem{
+	text-align: center;
+	margin-bottom: 100px;
+}
+p{
+	text-align: center;
+}
+.container-img{
+	width: 749px;
+	height: 493px;
+}
+.container-somos{
+	margin-bottom: 125px;
+}
+@media{min-width: 530px;}{
+}
+.imagem1{ 
+	position: relative;
+	width: 100%;
+	height: 800px;
+}
+.imagem2{ 
+	position: relative;
+	width: 100%;
+	height: 800px;
+}
+.imagem3{ 
+	position: relative;
+	width: 100%;
+	height: 800px;
+}
+
+.tituloVisao{
+	text-align: center;
+	justify-content: center; 
+}
+.textoVisao{
+	text-align: justify;
+} 
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+>>>>>>> Dev
