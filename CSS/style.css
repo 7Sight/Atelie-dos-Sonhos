@@ -59,16 +59,17 @@ footer {
 }
 p{
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .container-img{
-	width: 749px;
-	height: 493px;
+	width:100%;
+	height:530px;
 }
 .container-somos{
 	margin-bottom: 125px;
 }
 @media{min-width: 530px;}{
-
+	
 }
 /* Nosso Trabalho*/
 .ImagemHome{
