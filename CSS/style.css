@@ -1,7 +1,7 @@
-*, *:before, *:after {
+ *, *:before, *:after {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -46,7 +46,7 @@ footer {
     margin: 0 0 0 10px;
 }
 .par{
-	text-align: center;
+         text-align: center;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
 .format{
@@ -63,93 +63,29 @@ p{
 	font-family: Arial, Helvetica, sans-serif;
 }
 .container-img{
-	width:65%;
-	height:500px;
+	width:100%;
+	height:530px;
 }
 .container-somos{
 	margin-bottom: 125px;
 }
-
+@media(min-width: 530px){
+	
+}
 /* Nosso Trabalho*/
-.cor-titulo{
-	color: #a97464;
-}
-.caixa{
-	border:50px solid #a97464; 
-	background-color: #a97464; 
-	width: 100%;
-	height: 100%;
-	align-items: center;
-}
-.cor-nosso{
-	background:#14171e;
-	height: 90vh;
-}
-.esp-n{
-	margin-bottom: 150px;
-	padding-top: 50px;
-	margin-top: 0px;
-}
-.foto-icone{
-	box-align: center;
-	width:30%; 
-	height: 10%;
-}
-.legenda-n{
-	padding-top: 30px;
-	color: black;
-	text-align: center;
-}
-@media(max-width: 576px){
-	.foto-icone{
-		box-align: center;
-		width: 90%; 
-		height: 10%;
-	}
-	.caixa{
-		margin-left: 65px;
-		border: solid #a97464; 
-		background-color: #a97464; 
-		width: 175px;
-		height: 200px;
-		margin-bottom: 25px;
-		align-items: center;
-	}
 
-	.legenda-n{
-		color: black;
-		text-align: center;
-		font-size: xx-small;
-	}
-	.esp-n{
-		margin-bottom: 100px;
-		padding-top: 50px;
-		margin-top: 0px;
-	}
-	.cor-nosso{
-		background:#14171e;
-		height: 125vh;
-	}
-}
 
-/* Fim Nosso Trabalho*/
 .imagemA{ 
 	position: relative;
 	width: 100%;
 	height: 800px;
 }
-@media (max-width: 600px){
-	.esp-n{
-		margin-bottom: 100px;
-		padding-top: 50px;
-		margin-top: 0px;
-	}
-	.imagemA{
-		width: 100%;
-		height: 450px;
+@media (max-width: 800px){
+	.botaoDaMSG{
+		text-align: center;
 	}
 	.informacoes{
-		padding: 20px;
+		padding: 40px;
 		text-align: center;
 	}
 	.form-quem{
@@ -160,8 +96,9 @@ p{
 		margin-bottom: 20px;
 	}
 	.container-img {
-		width: 455px;
+		width: 340px;
 		height: 255px;
+		
 	}
 	.container-somos{
 		margin-bottom: 10px;
@@ -175,8 +112,8 @@ p{
 	.format{
 		margin-bottom: 10px;
 	}
-	.btn {
-		margin-left: 200px;
+	.aa{
+		text-align: center;
 	}
 }
 .tituloVisao{
