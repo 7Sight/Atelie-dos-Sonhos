@@ -1,7 +1,7 @@
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -46,7 +46,7 @@ footer {
     margin: 0 0 0 10px;
 }
 .par{
-         text-align: center;
+	text-align: center;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
 .format{
@@ -69,12 +69,43 @@ p{
 .container-somos{
 	margin-bottom: 125px;
 }
-@media{min-width: 530px;}{
-	
-}
+
 /* Nosso Trabalho*/
+.cor-titulo{
+	color: #a97464;
+}
+.caixa{
+	margin-left: 50px;
+	border:50px solid #a97464; 
+	background-color: #a97464; 
+	width: 80%;
+	height: 300px;
+	align-items: center;
+}
+.c2{
+}
+.cor-nosso{
+	background:#14171e;
+	height: 110vh;
+}
+.esp-n{
+	margin-bottom: 150px;
+	padding-top: 50px;
+	margin-top: 0px;
+}
+.foto-icone{
+	box-align: center;
+	width:30%; 
+	height: 100px;
+}
+.legenda-n{
+	padding-top: 30px;
+	color: black;
+	font-size: xx-large;
+}
 
 
+/* Fim Nosso Trabalho*/
 .imagemA{ 
 	position: relative;
 	width: 100%;
