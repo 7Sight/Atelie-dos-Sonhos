@@ -69,7 +69,7 @@ p{
 .container-somos{
 	margin-bottom: 125px;
 }
-@media{min-width: 530px;}{
+@media(min-width: 530px){
 	
 }
 /* Nosso Trabalho*/
