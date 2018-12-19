@@ -103,20 +103,19 @@ p{
 @media(max-width: 576px){
 	.foto-icone{
 		box-align: center;
-		width: 100%; 
+		width: 90%; 
 		height: 10%;
 	}
 	.caixa{
-		margin-left: 15px;
+		margin-left: 65px;
 		border: solid #a97464; 
 		background-color: #a97464; 
-		width: 100px;
-		height: 175px;
+		width: 175px;
+		height: 200px;
+		margin-bottom: 25px;
 		align-items: center;
 	}
-	.cor-titulo{
-		color: #a97464;
-	}
+
 	.legenda-n{
 		color: black;
 		text-align: center;
@@ -127,6 +126,10 @@ p{
 		padding-top: 50px;
 		margin-top: 0px;
 	}
+	.cor-nosso{
+		background:#14171e;
+		height: 100vh;
+	}
 }
 
 /* Fim Nosso Trabalho*/
@@ -136,7 +139,11 @@ p{
 	height: 800px;
 }
 @media (max-width: 600px){
-	
+	.esp-n{
+		margin-bottom: 100px;
+		padding-top: 50px;
+		margin-top: 0px;
+	}
 	.imagemA{
 		width: 100%;
 		height: 450px;
