@@ -80,13 +80,13 @@ p{
 	width: 100%;
 	height: 800px;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
 	.imagemA{
 		width: 100%;
 		height: 450px;
 	}
 	.informacoes{
-		padding: 20px;
+		padding: 40px;
 		text-align: center;
 	}
 	.form-quem{
@@ -113,8 +113,8 @@ p{
 	.format{
 		margin-bottom: 10px;
 	}
-	.btn {
-		margin-left: 120px;
+	.aa{
+		text-align: center;
 	}
 }
 .tituloVisao{
