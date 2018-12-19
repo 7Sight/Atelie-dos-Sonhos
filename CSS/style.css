@@ -32,7 +32,7 @@ footer {
 }
 /* <--! Titulo do Form --> */
 .titfaca{
-     text-align: center;
+    text-align: center;
     margin-bottom: 125px;
     margin-top: 20px;
 }
@@ -74,31 +74,50 @@ p{
 /* Nosso Trabalho*/
 
 
-.imagem1{ 
+.imagemA{ 
 	position: relative;
 	width: 100%;
 	height: 800px;
 }
 @media (max-width: 600px){
-	.imagem1{
+	.imagemA{
 		width: 100%;
 		height: 450px;
 	}
+	.informacoes{
+		padding: 90px;
+		text-align: center;
+	}
+	.form-quem{
+		justify-content: center;
+		top: 200px;
+		height: 50%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.container-img {
+		width: 455px;
+		height: 255px;
+		padding-left: 100px;
+	}
+	.container-somos{
+		margin-bottom: 10px;
+	}
+	.titfaca{
+		margin-bottom: 30px;
+	}
+	.TextoQ{
+		text-align: justify;
+	}
+	.format{
+		margin-bottom: 10px;
+	}
+	.btn {
+		margin-left: 200px;
+	}
 }
-.imagem2{ 
-	position: relative;
-	width: 100%;
-	height: 800px;
-}
-.imagem3{ 
-	position: relative;
-	width: 100%;
-	height: 800px;
-}
-
 .tituloVisao{
 	text-align: center;
-	justify-content: center; 
 }
 .textoVisao{
 	text-align: justify;
