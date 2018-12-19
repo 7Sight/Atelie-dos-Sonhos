@@ -80,13 +80,13 @@ p{
 	width: 100%;
 	height: 800px;
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
 	.imagemA{
 		width: 100%;
 		height: 450px;
 	}
 	.informacoes{
-		padding: 20px;
+		padding: 40px;
 		text-align: center;
 	}
 	.form-quem{
@@ -97,9 +97,9 @@ p{
 		margin-bottom: 20px;
 	}
 	.container-img {
-		width: 455px;
+		width: 340px;
 		height: 255px;
-		padding-left: 100px;
+		
 	}
 	.container-somos{
 		margin-bottom: 10px;
@@ -113,8 +113,8 @@ p{
 	.format{
 		margin-bottom: 10px;
 	}
-	.btn {
-		margin-left: 200px;
+	.aa{
+		text-align: center;
 	}
 }
 .tituloVisao{
