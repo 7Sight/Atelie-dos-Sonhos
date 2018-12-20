@@ -75,12 +75,14 @@ p{
 /* Nosso Trabalho*/
 
 
-.imagemA{ 
-	position: relative;
+.imagemDaHome{ 
 	width: 100%;
 	height: 800px;
 }
 @media (max-width: 800px){
+	.imagemDaHome{ 
+	height: 500px;
+	}
 	.botaoDaMSG{
 		text-align: center;
 	}
