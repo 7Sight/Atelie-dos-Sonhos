@@ -188,3 +188,38 @@ p{
     background-color: #404040;
 }
 /* Home */
+
+.backgorund{
+    background-image: url(../IMGS/backgrou.jpg);
+}
+
+.nav-link{
+    text-align: center;
+    font-size: 1.3em;
+    color:#a97464 !important;
+    padding: .9em !important;
+    font-weight: bold;
+    
+}
+
+.nav-link:hover{
+    color:#9f283e !important;
+    font-size: none;
+}
+
+.navbar-toggler{
+    background: #a97464 !important;
+    
+}
+
+.navbar-light .navbar-toggler{
+    color: #a97464 !important;
+    
+}
+.navbar{
+	position: fixed;
+	z-index: 1;
+}
+
+
+/* Nav */
