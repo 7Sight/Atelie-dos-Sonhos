@@ -69,11 +69,68 @@ p{
 .container-somos{
 	margin-bottom: 125px;
 }
-@media(min-width: 530px){
-	
-}
-/* Nosso Trabalho*/
 
+/* Nosso Trabalho*/
+.cor-titulo{
+	color: #a97464;
+}
+.caixa{
+	border:50px solid #a97464; 
+	background-color: #a97464; 
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+.cor-nosso{
+	background:#14171e;
+	height: 90vh;
+}
+.esp-n{
+	margin-bottom: 150px;
+	padding-top: 50px;
+	margin-top: 0px;
+}
+.foto-icone{
+	box-align: center;
+	width:30%; 
+	height: 10%;
+}
+.legenda-n{
+	padding-top: 30px;
+	color: black;
+	text-align: center;
+}
+@media(max-width: 576px){
+	.foto-icone{
+		box-align: center;
+		width: 90%; 
+		height: 10%;
+	}
+	.caixa{
+		margin-left: 65px;
+		border: solid #a97464; 
+		background-color: #a97464; 
+		width: 175px;
+		height: 200px;
+		margin-bottom: 25px;
+		align-items: center;
+	}
+
+	.legenda-n{
+		color: black;
+		text-align: center;
+		font-size: xx-small;
+	}
+	.esp-n{
+		margin-bottom: 100px;
+		padding-top: 50px;
+		margin-top: 0px;
+	}
+	.cor-nosso{
+		background:#14171e;
+		height: 125vh;
+	}
+}
 
 .imagemDaHome{ 
 	width: 100%;
