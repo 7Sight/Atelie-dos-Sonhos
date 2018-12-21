@@ -63,6 +63,7 @@
 
 .fotoSobre{
   border-radius: 60%;
+  border: 2px solid black;
 }
 
 .row.sobre{
@@ -82,7 +83,7 @@
 
 .py-4.text-center.textbold.cortexto{
   padding-top: 20px !important;
-  padding-bottom: 10px !important;
+  padding-bottom: 20px !important;
   font-size: 2rem;
 }
 
@@ -92,10 +93,6 @@
 
 .col-md-6.txt{
   text-align: justify;
-}
-
-.cNosso{
-  background-color: #9e012e12;
 }
 
 @media(max-width: 767px){
@@ -130,4 +127,21 @@ footer {
     text-align: center;
     padding: 0.5em 0;
     font-size: 1.3em;
+}
+
+/* SEÇÃO CONHEÇA NOSSO TRABALHO */
+
+.cNosso{
+
+}
+
+.col-md-6.col{
+  background-color: #7b787830;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-center{
+  padding: 15px 0px 0px 15px;
+  text-align: center!important;
 }
