@@ -9,18 +9,18 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style2.css">
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS IMPORT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 </head>
-
-<body>
 
 <!-- NAVBAR RESPONSIVA -->
 
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand h1 mb-0">
+            <a class="navbar-brand h1 mb-0" href="#carouselSite">
                 <img src="img/logo.png" style="width: 80px; height: 70px; border-radius: 50%;">
             </a>            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,13 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarSite">
                 <ul class="navbar-nav d-flex flor">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#carouselSite">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem somos</a>
+                        <a class="nav-link" href="#sobreSite">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conheça nosso trabalho</a>
+                        <a class="nav-link" href="#nosso-trabalho">Conheça nosso trabalho</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Faça seu orçamento</a>
@@ -143,6 +143,14 @@
         </a> 
     </div>
 </footer>
+
+<!-- SCRIPTS UTILIZADOS -->
+
+<script>
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+</script>
 
 </body>
 </html>
