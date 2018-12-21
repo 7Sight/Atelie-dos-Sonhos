@@ -105,3 +105,29 @@
   }
 }
 
+/* FOOTER */
+
+.logo7Sight{
+  width: 90px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+} 
+
+a.link7{
+  color:#000; 
+  text-decoration:none;
+}
+
+a.link7:hover{
+  color:#030; 
+  text-decoration:none;
+}
+
+footer {
+    background-color: #88888817;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 1.3em;
+}
