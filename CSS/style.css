@@ -9,12 +9,6 @@ body {
 	color:#2c2727;
 }
 
-/* <--! Menu Superior --> */
-nav {	
-	position: fixed;
-	top: 0;
-	width: 100%;	
-}
 
 /* <--! Rodapé --> */
 
@@ -189,38 +183,41 @@ p{
 }
 /* Home */
 
-.backgorund{
-    background-image: url(../IMGS/backgrou.jpg);
+
+
+/* NAVBAR RESPONSIVA */
+
+.navbar.fixed-top.navbar-expand-lg.navbar-dark{
+  background: #000000;
 }
 
-.nav-link{
-    text-align: center;
-    font-size: 1.3em;
-    color:#a97464 !important;
-    padding: .9em !important;
+.navbar-nav.d-flex.justify-content-center.flor{
+	list-style-image: url('../img/favicon.ico')!important;
+}
+
+.navbar-toggler-icon {
+    background: #30559bdb;
+    border-radius: 4px;
+}
+
+.navbar-toggler .collapsed{
+  background: lightblue;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255,255,255);
     font-weight: bold;
-    
+	text-align: center;
 }
 
-.nav-link:hover{
-    color:#9f283e !important;
-    font-size: none;
-}
+@media(max-width: 767px){
+  .navbar.fixed-top.navbar-expand-lg.navbar-dark{
+  background: rgb(255,255,255);
+  position: fixed;
+  }
 
-.navbar-toggler{
-    background: #a97464 !important;
-    
+	.carousel.slide{
+		padding-top: 6.5em!important;
+	}
 }
-
-.navbar-light .navbar-toggler{
-    color: #a97464 !important;
-    
-}
-.navbar{
-	position: fixed;
-	z-index: 1;
-	background-color: #000;
-}
-
-
-/* Nav */
