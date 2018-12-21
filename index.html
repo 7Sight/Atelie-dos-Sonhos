@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ateliê dos Sonhos - Home</title>
-	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i" rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
+
 <!-- NAVBAR RESPONSIVA -->
+
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container">
+            <a class="navbar-brand h1 mb-0">
+                <img src="img/logo.png" style="width: 80px; height: 70px; border-radius: 50%;">
+            </a>            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSite">
-                <ul class="navbar-nav d-flex justify-content-center flor">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSite">
+                <ul class="navbar-nav d-flex flor">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -41,89 +46,86 @@
     </nav>   
 </header>
 
-
-
-
-        <section id="Home">
-        <div id="MagicCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#MagicCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#MagicCarousel" data-slide-to="1"></li>
-                <li data-target="#MagicCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox"></div>
-                <div class="carousel-item active">
-                    <img class="imagemDaHome" src="img/imagem1.jpg" alt="First Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h2 class="tituloVisao">Visão Da Empresa</h2>
-            <p class="textoVisao">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor</p>   
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="imagemDaHome" src="img/imagem2.jpg" alt="Second Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h2 class="tituloVisao">Visão Da Empresa</h2>
-            <p class="textoVisao">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor</p>    
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="imagemDaHome" src="img/imagem3.jpg" alt="Third Slide">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h2 class="tituloVisao">Visão Da Empresa</h2>
-            <p class="textoVisao">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor</p>    
-                    </div>
-                </div>
-            <a class="carousel-control-prev" href="#MagicCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">previous</span>
-            </a>    
-            <a class="carousel-control-next" href="#MagicCarousel" role="button" data-slide="next">    
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">next</span>
-            </a> 
-        </div>           
-    </section>
-		<section id="Quem-somos">
-            <div class="container-somos">
-			    <div class="col">
-					<h1 class="form-quem">Quem Somos</h1>
-					<div class="row">
-						<div class="col-sm-6">
-							<p class="TextoQ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-						<div class="col-sm-6">
-							<div>   
-							<img class="container-img col" src="img/perfil.jpg" alt="loren ipsum">
-							</div>
-						</div>
-					</div>
-			    </div>
+<!-- CARROSSEL IMAGENS -->
+<div id="carouselSite" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/img1.jpg" alt="imgCarousel1" class="img-fluid d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="img/img2.jpg" alt="imgCarousel2" class="img-fluid d-block">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>lorem ipsun dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ipsam alias laudantium.</p>
             </div>
-        </section>
-        <section id="nosso-trabalho">
+        </div>
+        <div class="carousel-item">
+            <img src="img/img3.jpg" alt="imgCarousel3" class="img-fluid d-block">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>lorem ipsun dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ipsam alias laudantium.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- CARROSSEL BOTÕES DE CONTROLE -->
+    <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+    </a>
+<!-- CARROSSEL INDICADORES-->
+    <ol class="carousel-indicators">
+        <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="carouselSite" data-slide-to="1"></li>
+        <li data-target="carouselSite" data-slide-to="2"></li>
+    </ol>
+</div>
+
+<!-- SECTION SOBRE -->
+<section id="sobreSite" class="cSobre">
+    <div class="container" id="sobre-a">
+        <h2 class="py-4 text-center textbold cortexto">Quem somos</h2>
+        <div class="row sobre">
+            <div class="col-md-6">
+                <img src="img/perfil.jpg" class="fotoSobre" alt="sobre1" align="left" style="height: 300px; max-width: 100%;">
+            </div>
+            <div class="col-md-6 txt" align="right">
+                <span class="cortexto recuo lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam rerum minima laborum sit amet, reiciendis, quis nisi dolores eos non iusto tenetur placeat assumenda fugit error repellat excepturi. Unde, quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, explicabo, illo. Incidunt praesentium eum dolor iste, voluptate optio molestias possimus ratione quaerat, natus, asperiores quia ullam delectus repellat aliquam quasi!Incidunt praesentium eum dolor iste, voluptate optio molestias possimus ratione quaerat, natus, asperiores quia ullam delectus repellat.</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION CONHEÇA NOSSO TRABALHO -->
+
+<section id="nosso-trabalho" class="cNosso">
             <div class="cor-nosso">
             <div class="container">
                 <div class="col">
                 <div class="col text-center esp-n">
-                    <h1 class="esp-t cor-titulo">Conheça Nosso Trabalho</h1>
+                    <h2 class="py-4 text-center textbold cortexto">Conheça nosso trabalho</h2>
                 </div>
                 <div class="container">
                 <div class="row">
                     <div class="col-md-6 col">
                         <div class="caixa col">
                             <div class="text-center col">
-                                <a href="https://m.facebook.com/ateliedossonhosdf/"><img src="img/facebook2.png" alt="loren ipsum" class="foto-icone img-fluid"></a>
+                                <a href="https://m.facebook.com/ateliedossonhosdf/"><img src="img/fb.png" alt="loren ipsum" class="foto-icone img-fluid"></a>
                             </div>
-                            <p class="legenda-n col">Veja Nosso Trabalho no Facebook</p>
+                            <p class="legenda-n col"></p>
                         </div>
                     </div>
                     <br>
                     <div class="col-md-6 col c2">
                         <div class="caixa col">
                             <div class="text-center col">
-                                    <a href="https://www.instagram.com/ateliedossonhosdf/"><img src="img/instagram.png" alt="loren ipsum" class="foto-icone img-fluid"></a>
+                                    <a href="https://www.instagram.com/ateliedossonhosdf/"><img src="img/insta.png" alt="loren ipsum" class="foto-icone img-fluid"></a>
                             </div>
-                            <p class="legenda-n col">Veja Nosso Trabalho no Instagram</p>
+                            <p class="legenda-n col"></p>
                         </div>
                     </div>
                 </div> 
@@ -131,63 +133,16 @@
             </div>
             </div>
         </div>
-        </section>
-        <section id="facaseuorcamento">
-                    <div class="col">
-                    <div class="format">
-                    <div class="facaseuorcamento">
-                            <div class="titfaca">
-                            <h1>Faça seu Orçamento</h1>
-                                <div class="par">
-                                    <h8>Lorem ipsum doolor sit amet, consectetur adipisicing elit.</h8>
-                                </div>
-                            </div>
-                    <div class="row">
-                    <div class="col">
-                    <div class="hrr">
-                    <form class="form-contact" action="/enviar_email" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="V55jchQVpwLx2IjRgMSg2orfoXIEqfLRd6R6BM3rzUybA8gtI5Tl+74OOOqi83/QPMuSs9RaITzS2b3zhEJrcw==" />
-                        <div class="form-group">
-                            <input type="text" name="nome" id="nome" placeholder="Nome" class="form-control field-contact" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="telefone" id="telefone" placeholder="Telefone" class="form-control field-contact" />
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" placeholder="E-mail" class="form-control field-contact" />
-                        </div>
-                        <div class="form-group">
-                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" type="text" class="form-control field-contact" rows="6"></textarea>
-                        </div>
-                        <div class="botaoDaMSG">
-                            <button type="submit" class="btn button-contact">Enviar</button>
-                        </div>
-                    </form>
-                    </div>
-                    </div>
-                    <div class="col">
-                        <div class="informacoes">
-                            <div class="esp">
-                                <div class="contact">
-                                    <h6 class="contact">Telefone & Whatsapp</h6>
-                                    <h8>(61) 982376234</h8>
-                                </div>
-                            </div>    
-                        <div class="contact">
-                            <h6 class="contact">Email:</h6>
-                            <h8>daniel.oliveira.blv.13@gmail.com</h8>
-                            <h8>guilhermepeixoto27@gmail.com</h8>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-        </section>
-                <footer>
-                    <div class="col">
-                    Desenvolvido por 7Sight JR
-                    </div>
-                </footer>
+</section>
+
+<footer>
+    <div class="col">
+        <a class="link7" href="http://7sight.com.br/" target="blank">
+            Desenvolvido por
+            <img class="logo7Sight" src="img/7Sight.png">
+        </a> 
+    </div>
+</footer>
 
 </body>
 </html>
