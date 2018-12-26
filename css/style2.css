@@ -1,11 +1,11 @@
 /* NAVBAR RESPONSIVA */
 
 .navbar.fixed-top.navbar-expand-lg.navbar-dark{
-  background: #000000;
+  background: #fffffffa;
 }
 
 .navbar-brand.h1.mb-0{
-  visibility: hidden;
+  visibility: show;
 }
 
 .navbar-toggler-icon {
@@ -14,12 +14,12 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255,255,255);
+    color: rgb(160, 40, 62);
     font-weight: bold;text-align: center;
 }
 
 .nav-link{
-  font-size: 1.6em;
+  font-size: 1.5em;
   padding-right: 3rem!important;
   padding-left: 1rem!important;
 }
@@ -42,7 +42,7 @@
 	}
 
   .nav-link{
-  font-size: 1.6em;
+  font-size: 1.5em;
   padding-right: 0rem!important;
   padding-left: 0rem!important;
  }
