@@ -15,7 +15,15 @@
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(160, 40, 62);
-    font-weight: bold;text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(226, 45, 78);
+    font-weight: bold;
+    text-align: center;
 }
 
 .nav-link{
@@ -33,7 +41,7 @@
 
 @media(max-width: 767px){
   .navbar.fixed-top.navbar-expand-lg.navbar-dark{
-  background: black;
+  background: #fffffffa;
   position: fixed;
   }
 
@@ -132,7 +140,7 @@ footer {
 /* SEÇÃO CONHEÇA NOSSO TRABALHO */
 
 .cNosso{
-
+  padding-bottom: 40px;
 }
 
 .col-md-6.col{
@@ -144,4 +152,80 @@ footer {
 .text-center{
   padding: 15px 0px 0px 15px;
   text-align: center!important;
+}
+
+
+/* SEÇÃO DE CONTATO */
+
+
+.formContato{
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+#secContato{
+      /*background: url(../img/contatos.jpg) no-repeat fixed center;*/
+      background-color: #9e012e12;
+      background-size: cover;
+      color: rgb(160, 40, 62);
+      padding: 1%;
+
+}
+
+#emailHelp{
+      color: rgb(160, 40, 62)!important;
+}
+
+.form-group{
+      width: 50%;
+}
+
+#btnConta{
+      align-items: center;
+}
+
+.list-unstyled {
+      color: yellow;
+}
+.has-error .control-label{
+      color: yellow;
+}
+
+.formulario {
+      padding-left: 5em;
+}
+
+.btn-danger.disabled, .btn-danger:disabled{
+
+  color: #fff;
+    background-color: rgb(148, 41, 60);
+    border-color: rgb(128, 45, 60); 
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: rgb(160, 40, 62);
+    border-color: rgb(160, 40, 62);
+}
+
+
+@media(max-width: 990px){
+      .form-group{
+            width: 100%;
+      }
+
+      .formContato{
+      padding-left: 5px;
+      padding-bottom: 15px;
+      padding-right: 5px;
+      }
+
+      .btnContato{
+      text-align: center;
+      }
+}
+
+.contact-title {
+  padding-top: 10px;
+  font-weight: bold;
 }
